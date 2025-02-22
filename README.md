@@ -1,147 +1,111 @@
-# Machine-Learning-assignment
+# 📌 Machine Learning Assignment
 
-```{bash}
+## 🚀 Running the Script
+To execute the training script, simply run:
+
+```bash
 ./run.sh
 ```
 
-Running: python train.py --fold 0 --model decision_tree_gini
-Fold=0, Model=decision_tree_gini, Accuracy=0.6927351500690695
-Running: python train.py --fold 1 --model decision_tree_gini
-Fold=1, Model=decision_tree_gini, Accuracy=0.6946720668110892
-Running: python train.py --fold 2 --model decision_tree_gini
-Fold=2, Model=decision_tree_gini, Accuracy=0.6938243697215158
-Running: python train.py --fold 3 --model decision_tree_gini
-Fold=3, Model=decision_tree_gini, Accuracy=0.6970267809487928
-Running: python train.py --fold 4 --model decision_tree_gini
-Fold=4, Model=decision_tree_gini, Accuracy=0.6864148692348749
-Running: python train.py --fold 0 --model decision_tree_entropy
-Fold=0, Model=decision_tree_entropy, Accuracy=0.6966281552178827
-Running: python train.py --fold 1 --model decision_tree_entropy
-Fold=1, Model=decision_tree_entropy, Accuracy=0.6944208973030674
-Running: python train.py --fold 2 --model decision_tree_entropy
-Fold=2, Model=decision_tree_entropy, Accuracy=0.6941069354180402
-Running: python train.py --fold 3 --model decision_tree_entropy
-Fold=3, Model=decision_tree_entropy, Accuracy=0.6941383316065429
-Running: python train.py --fold 4 --model decision_tree_entropy
-Fold=4, Model=decision_tree_entropy, Accuracy=0.7003861731185834
-Running: python train.py --fold 0 --model rf
-Fold=0, Model=rf, Accuracy=0.7721650131859852
-Running: python train.py --fold 1 --model rf
-Fold=1, Model=rf, Accuracy=0.7748265360585225
-Running: python train.py --fold 2 --model rf
-Fold=2, Model=rf, Accuracy=0.7730683495023705
-Running: python train.py --fold 3 --model rf
-Fold=3, Model=rf, Accuracy=0.770022919217607
-Running: python train.py --fold 4 --model rf
-Fold=4, Model=rf, Accuracy=0.7761137797871338
-Running: python train.py --fold 0 --model extra_trees
-Fold=0, Model=extra_trees, Accuracy=0.7676127087780987
-Running: python train.py --fold 1 --model extra_trees
-Fold=1, Model=extra_trees, Accuracy=0.7689554488085146
-Running: python train.py --fold 2 --model extra_trees
-Fold=2, Model=extra_trees, Accuracy=0.7680449593419358
-Running: python train.py --fold 3 --model extra_trees
-Fold=3, Model=extra_trees, Accuracy=0.760855232174814
-Running: python train.py --fold 4 --model extra_trees
-Fold=4, Model=extra_trees, Accuracy=0.7718438981507645
-Running: python train.py --fold 0 --model gradient_boosting
-Fold=0, Model=gradient_boosting, Accuracy=0.7732010548788145
-Running: python train.py --fold 1 --model gradient_boosting
-Fold=1, Model=gradient_boosting, Accuracy=0.7752974788860633
-Running: python train.py --fold 2 --model gradient_boosting
-Fold=2, Model=gradient_boosting, Accuracy=0.7792220024489027
-Running: python train.py --fold 3 --model gradient_boosting
-Fold=3, Model=gradient_boosting, Accuracy=0.7697717497095853
-Running: python train.py --fold 4 --model gradient_boosting
-Fold=4, Model=gradient_boosting, Accuracy=0.7778405701547833
-Running: python train.py --fold 0 --model adaboost
-Fold=0, Model=adaboost, Accuracy=0.7562790405626021
-Running: python train.py --fold 1 --model adaboost
-Fold=1, Model=adaboost, Accuracy=0.760415685535776
-Running: python train.py --fold 2 --model adaboost
-Fold=2, Model=adaboost, Accuracy=0.7594110075036891
-Running: python train.py --fold 3 --model adaboost
-Fold=3, Model=adaboost, Accuracy=0.7561772000879093
-Running: python train.py --fold 4 --model adaboost
-Fold=4, Model=adaboost, Accuracy=0.7595993846347053
-Running: python train.py --fold 0 --model xgboost
-Fold=0, Model=xgboost, Accuracy=0.7785382393570263
-Running: python train.py --fold 1 --model xgboost
-Fold=1, Model=xgboost, Accuracy=0.781513924209601
-Running: python train.py --fold 2 --model xgboost
-Fold=2, Model=xgboost, Accuracy=0.7837744497817964
-Running: python train.py --fold 3 --model xgboost
-Fold=3, Model=xgboost, Accuracy=0.7783115129823239
-Running: python train.py --fold 4 --model xgboost
-Fold=4, Model=xgboost, Accuracy=0.78138833945559
-Running: python train.py --fold 0 --model lightgbm
-[LightGBM] [Info] Number of positive: 55722, number of negative: 71682
-[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.003201 seconds.
-You can set `force_row_wise=true` to remove the overhead.
-And if memory is not enough, you can set `force_col_wise=true`.
-[LightGBM] [Info] Total Bins 2404
-[LightGBM] [Info] Number of data points in the train set: 127404, number of used features: 24
-[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.437365 -> initscore=-0.251865
-[LightGBM] [Info] Start training from score -0.251865
-Fold=0, Model=lightgbm, Accuracy=0.7801393947004898
-Running: python train.py --fold 1 --model lightgbm
-[LightGBM] [Info] Number of positive: 55722, number of negative: 71683
-[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.003086 seconds.
-You can set `force_row_wise=true` to remove the overhead.
-And if memory is not enough, you can set `force_col_wise=true`.
-[LightGBM] [Info] Total Bins 2403
-[LightGBM] [Info] Number of data points in the train set: 127405, number of used features: 24
-[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.437361 -> initscore=-0.251879
-[LightGBM] [Info] Start training from score -0.251879
-Fold=1, Model=lightgbm, Accuracy=0.7811685661360711
-Running: python train.py --fold 2 --model lightgbm
-[LightGBM] [Info] Number of positive: 55722, number of negative: 71683
-[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.003084 seconds.
-You can set `force_row_wise=true` to remove the overhead.
-And if memory is not enough, you can set `force_col_wise=true`.
-[LightGBM] [Info] Total Bins 2400
-[LightGBM] [Info] Number of data points in the train set: 127405, number of used features: 24
-[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.437361 -> initscore=-0.251879
-[LightGBM] [Info] Start training from score -0.251879
-Fold=2, Model=lightgbm, Accuracy=0.783491884085272
-Running: python train.py --fold 3 --model lightgbm
-[LightGBM] [Info] Number of positive: 55723, number of negative: 71682
-[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.003116 seconds.
-You can set `force_row_wise=true` to remove the overhead.
-And if memory is not enough, you can set `force_col_wise=true`.
-[LightGBM] [Info] Total Bins 2398
-[LightGBM] [Info] Number of data points in the train set: 127405, number of used features: 24
-[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.437369 -> initscore=-0.251847
-[LightGBM] [Info] Start training from score -0.251847
-Fold=3, Model=lightgbm, Accuracy=0.7774010235157451
-Running: python train.py --fold 4 --model lightgbm
-[LightGBM] [Info] Number of positive: 55723, number of negative: 71682
-[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.003739 seconds.
-You can set `force_row_wise=true` to remove the overhead.
-And if memory is not enough, you can set `force_col_wise=true`.
-[LightGBM] [Info] Total Bins 2403
-[LightGBM] [Info] Number of data points in the train set: 127405, number of used features: 24
-[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.437369 -> initscore=-0.251847
-[LightGBM] [Info] Start training from score -0.251847
-Fold=4, Model=lightgbm, Accuracy=0.7827697717497096
-Running: python train.py --fold 0 --model catboost
-Fold=0, Model=catboost, Accuracy=0.7822114780861484
-Running: python train.py --fold 1 --model catboost
-Fold=1, Model=catboost, Accuracy=0.7852500706414242
-Running: python train.py --fold 2 --model catboost
-Fold=2, Model=catboost, Accuracy=0.7863489372390192
-Running: python train.py --fold 3 --model catboost
-Fold=3, Model=catboost, Accuracy=0.7795673605224326
-Running: python train.py --fold 4 --model catboost
-Fold=4, Model=catboost, Accuracy=0.786600106747041
-Running: python train.py --fold 0 --model logistic_regression
-Fold=0, Model=logistic_regression, Accuracy=0.7228431495667462
-Running: python train.py --fold 1 --model logistic_regression
-Fold=1, Model=logistic_regression, Accuracy=0.721861166054441
-Running: python train.py --fold 2 --model logistic_regression
-Fold=2, Model=logistic_regression, Accuracy=0.7224576936359925
-Running: python train.py --fold 3 --model logistic_regression
-Fold=3, Model=logistic_regression, Accuracy=0.7165866063859847
-Running: python train.py --fold 4 --model logistic_regression
-Fold=4, Model=logistic_regression, Accuracy=0.7257856896172805
-Running: python train.py --fold 0 --model svm
+---
+
+## 📊 Model Performance Across Folds
+### 🟢 Decision Tree (Gini)
+| Fold | Accuracy |
+|------|-----------|
+| 0    | 0.6927    |
+| 1    | 0.6947    |
+| 2    | 0.6938    |
+| 3    | 0.6970    |
+| 4    | 0.6864    |
+
+### 🔵 Decision Tree (Entropy)
+| Fold | Accuracy |
+|------|-----------|
+| 0    | 0.6966    |
+| 1    | 0.6944    |
+| 2    | 0.6941    |
+| 3    | 0.6941    |
+| 4    | 0.7004    |
+
+### 🌲 Random Forest
+| Fold | Accuracy |
+|------|-----------|
+| 0    | 0.7722    |
+| 1    | 0.7748    |
+| 2    | 0.7731    |
+| 3    | 0.7700    |
+| 4    | 0.7761    |
+
+### 🎯 Extra Trees
+| Fold | Accuracy |
+|------|-----------|
+| 0    | 0.7676    |
+| 1    | 0.7690    |
+| 2    | 0.7680    |
+| 3    | 0.7609    |
+| 4    | 0.7718    |
+
+### 🚀 Gradient Boosting
+| Fold | Accuracy |
+|------|-----------|
+| 0    | 0.7732    |
+| 1    | 0.7753    |
+| 2    | 0.7792    |
+| 3    | 0.7698    |
+| 4    | 0.7778    |
+
+### ⚡ AdaBoost
+| Fold | Accuracy |
+|------|-----------|
+| 0    | 0.7563    |
+| 1    | 0.7604    |
+| 2    | 0.7594    |
+| 3    | 0.7562    |
+| 4    | 0.7596    |
+
+### 🎮 XGBoost
+| Fold | Accuracy |
+|------|-----------|
+| 0    | 0.7785    |
+| 1    | 0.7815    |
+| 2    | 0.7838    |
+| 3    | 0.7783    |
+| 4    | 0.7814    |
+
+### 💡 LightGBM
+| Fold | Accuracy |
+|------|-----------|
+| 0    | 0.7801    |
+| 1    | 0.7812    |
+| 2    | 0.7835    |
+| 3    | 0.7774    |
+| 4    | 0.7828    |
+
+### 🏆 CatBoost
+| Fold | Accuracy |
+|------|-----------|
+| 0    | 0.7822    |
+| 1    | 0.7853    |
+| 2    | 0.7863    |
+| 3    | 0.7796    |
+| 4    | 0.7866    |
+
+### 📈 Logistic Regression
+| Fold | Accuracy |
+|------|-----------|
+| 0    | 0.7228    |
+| 1    | 0.7219    |
+| 2    | 0.7225    |
+| 3    | 0.7166    |
+| 4    | 0.7258    |
+
+---
+
+## 🎯 Summary
+- **Best Performing Model:** XGBoost with an average accuracy of ~0.780
+- **Most Consistent Model:** LightGBM, achieving stable accuracy across folds.
+- **Baseline Model:** Logistic Regression, with lower accuracy compared to ensemble methods.
+
+📌 *This analysis helps in selecting the best model for deployment!* 🚀
+
