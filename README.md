@@ -4,47 +4,46 @@
 ./run.sh
 ```
 
-(myenv) ➜  src git:(main) ✗ ./run.sh
 Running: python train.py --fold 0 --model decision_tree_gini
-Fold=0, Model=decision_tree_gini, Accuracy=0.6936456109506467
+Fold=0, Model=decision_tree_gini, Accuracy=0.6927351500690695
 Running: python train.py --fold 1 --model decision_tree_gini
-Fold=1, Model=decision_tree_gini, Accuracy=0.6942325201720511
+Fold=1, Model=decision_tree_gini, Accuracy=0.6946720668110892
 Running: python train.py --fold 2 --model decision_tree_gini
-Fold=2, Model=decision_tree_gini, Accuracy=0.6918778060343475
+Fold=2, Model=decision_tree_gini, Accuracy=0.6938243697215158
 Running: python train.py --fold 3 --model decision_tree_gini
-Fold=3, Model=decision_tree_gini, Accuracy=0.696901196194782
+Fold=3, Model=decision_tree_gini, Accuracy=0.6970267809487928
 Running: python train.py --fold 4 --model decision_tree_gini
-Fold=4, Model=decision_tree_gini, Accuracy=0.6909045241907632
+Fold=4, Model=decision_tree_gini, Accuracy=0.6864148692348749
 Running: python train.py --fold 0 --model decision_tree_entropy
-Fold=0, Model=decision_tree_entropy, Accuracy=0.6959374607559965
+Fold=0, Model=decision_tree_entropy, Accuracy=0.6966281552178827
 Running: python train.py --fold 1 --model decision_tree_entropy
-Fold=1, Model=decision_tree_entropy, Accuracy=0.6947348591880945
+Fold=1, Model=decision_tree_entropy, Accuracy=0.6944208973030674
 Running: python train.py --fold 2 --model decision_tree_entropy
-Fold=2, Model=decision_tree_entropy, Accuracy=0.6960848952937113
+Fold=2, Model=decision_tree_entropy, Accuracy=0.6941069354180402
 Running: python train.py --fold 3 --model decision_tree_entropy
-Fold=3, Model=decision_tree_entropy, Accuracy=0.694577878245581
+Fold=3, Model=decision_tree_entropy, Accuracy=0.6941383316065429
 Running: python train.py --fold 4 --model decision_tree_entropy
-Fold=4, Model=decision_tree_entropy, Accuracy=0.7019245863552165
+Fold=4, Model=decision_tree_entropy, Accuracy=0.7003861731185834
 Running: python train.py --fold 0 --model rf
-Fold=0, Model=rf, Accuracy=0.7740801205575788
+Fold=0, Model=rf, Accuracy=0.7721650131859852
 Running: python train.py --fold 1 --model rf
-Fold=1, Model=rf, Accuracy=0.7743555932309818
+Fold=1, Model=rf, Accuracy=0.7748265360585225
 Running: python train.py --fold 2 --model rf
-Fold=2, Model=rf, Accuracy=0.777306834950237
+Fold=2, Model=rf, Accuracy=0.7730683495023705
 Running: python train.py --fold 3 --model rf
-Fold=3, Model=rf, Accuracy=0.7696775611440771
+Fold=3, Model=rf, Accuracy=0.770022919217607
 Running: python train.py --fold 4 --model rf
-Fold=4, Model=rf, Accuracy=0.7742928008539763
+Fold=4, Model=rf, Accuracy=0.7761137797871338
 Running: python train.py --fold 0 --model extra_trees
-Fold=0, Model=extra_trees, Accuracy=0.7667336430993344
+Fold=0, Model=extra_trees, Accuracy=0.7676127087780987
 Running: python train.py --fold 1 --model extra_trees
-Fold=1, Model=extra_trees, Accuracy=0.7701171077831152
+Fold=1, Model=extra_trees, Accuracy=0.7689554488085146
 Running: python train.py --fold 2 --model extra_trees
-Fold=2, Model=extra_trees, Accuracy=0.7707136353646667
+Fold=2, Model=extra_trees, Accuracy=0.7680449593419358
 Running: python train.py --fold 3 --model extra_trees
-Fold=3, Model=extra_trees, Accuracy=0.7646227747951398
+Fold=3, Model=extra_trees, Accuracy=0.760855232174814
 Running: python train.py --fold 4 --model extra_trees
-Fold=4, Model=extra_trees, Accuracy=0.7708078239301749
+Fold=4, Model=extra_trees, Accuracy=0.7718438981507645
 Running: python train.py --fold 0 --model gradient_boosting
 Fold=0, Model=gradient_boosting, Accuracy=0.7732010548788145
 Running: python train.py --fold 1 --model gradient_boosting
@@ -56,48 +55,28 @@ Fold=3, Model=gradient_boosting, Accuracy=0.7697717497095853
 Running: python train.py --fold 4 --model gradient_boosting
 Fold=4, Model=gradient_boosting, Accuracy=0.7778405701547833
 Running: python train.py --fold 0 --model adaboost
-Fold=0, Model=adaboost, Accuracy=0.7690568881074972
+Fold=0, Model=adaboost, Accuracy=0.7562790405626021
 Running: python train.py --fold 1 --model adaboost
-Fold=1, Model=adaboost, Accuracy=0.7667891118018273
+Fold=1, Model=adaboost, Accuracy=0.760415685535776
 Running: python train.py --fold 2 --model adaboost
-Fold=2, Model=adaboost, Accuracy=0.768798467866001
+Fold=2, Model=adaboost, Accuracy=0.7594110075036891
 Running: python train.py --fold 3 --model adaboost
-Fold=3, Model=adaboost, Accuracy=0.764936736680167
+Fold=3, Model=adaboost, Accuracy=0.7561772000879093
 Running: python train.py --fold 4 --model adaboost
-Fold=4, Model=adaboost, Accuracy=0.7678251860224169
+Fold=4, Model=adaboost, Accuracy=0.7595993846347053
 Running: python train.py --fold 0 --model xgboost
-/home/whoami/Downloads/yes/envs/myenv/lib/python3.8/site-packages/xgboost/core.py:158: UserWarning: [21:56:01] WARNING: /workspace/src/learner.cc:740: 
-Parameters: { "use_label_encoder" } are not used.
-
-  warnings.warn(smsg, UserWarning)
 Fold=0, Model=xgboost, Accuracy=0.7785382393570263
 Running: python train.py --fold 1 --model xgboost
-/home/whoami/Downloads/yes/envs/myenv/lib/python3.8/site-packages/xgboost/core.py:158: UserWarning: [21:56:04] WARNING: /workspace/src/learner.cc:740: 
-Parameters: { "use_label_encoder" } are not used.
-
-  warnings.warn(smsg, UserWarning)
 Fold=1, Model=xgboost, Accuracy=0.781513924209601
 Running: python train.py --fold 2 --model xgboost
-/home/whoami/Downloads/yes/envs/myenv/lib/python3.8/site-packages/xgboost/core.py:158: UserWarning: [21:56:08] WARNING: /workspace/src/learner.cc:740: 
-Parameters: { "use_label_encoder" } are not used.
-
-  warnings.warn(smsg, UserWarning)
 Fold=2, Model=xgboost, Accuracy=0.7837744497817964
 Running: python train.py --fold 3 --model xgboost
-/home/whoami/Downloads/yes/envs/myenv/lib/python3.8/site-packages/xgboost/core.py:158: UserWarning: [21:56:11] WARNING: /workspace/src/learner.cc:740: 
-Parameters: { "use_label_encoder" } are not used.
-
-  warnings.warn(smsg, UserWarning)
 Fold=3, Model=xgboost, Accuracy=0.7783115129823239
 Running: python train.py --fold 4 --model xgboost
-/home/whoami/Downloads/yes/envs/myenv/lib/python3.8/site-packages/xgboost/core.py:158: UserWarning: [21:56:16] WARNING: /workspace/src/learner.cc:740: 
-Parameters: { "use_label_encoder" } are not used.
-
-  warnings.warn(smsg, UserWarning)
 Fold=4, Model=xgboost, Accuracy=0.78138833945559
 Running: python train.py --fold 0 --model lightgbm
 [LightGBM] [Info] Number of positive: 55722, number of negative: 71682
-[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.006435 seconds.
+[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.003201 seconds.
 You can set `force_row_wise=true` to remove the overhead.
 And if memory is not enough, you can set `force_col_wise=true`.
 [LightGBM] [Info] Total Bins 2404
@@ -107,7 +86,7 @@ And if memory is not enough, you can set `force_col_wise=true`.
 Fold=0, Model=lightgbm, Accuracy=0.7801393947004898
 Running: python train.py --fold 1 --model lightgbm
 [LightGBM] [Info] Number of positive: 55722, number of negative: 71683
-[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.006280 seconds.
+[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.003086 seconds.
 You can set `force_row_wise=true` to remove the overhead.
 And if memory is not enough, you can set `force_col_wise=true`.
 [LightGBM] [Info] Total Bins 2403
@@ -117,7 +96,7 @@ And if memory is not enough, you can set `force_col_wise=true`.
 Fold=1, Model=lightgbm, Accuracy=0.7811685661360711
 Running: python train.py --fold 2 --model lightgbm
 [LightGBM] [Info] Number of positive: 55722, number of negative: 71683
-[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.008354 seconds.
+[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.003084 seconds.
 You can set `force_row_wise=true` to remove the overhead.
 And if memory is not enough, you can set `force_col_wise=true`.
 [LightGBM] [Info] Total Bins 2400
@@ -127,7 +106,7 @@ And if memory is not enough, you can set `force_col_wise=true`.
 Fold=2, Model=lightgbm, Accuracy=0.783491884085272
 Running: python train.py --fold 3 --model lightgbm
 [LightGBM] [Info] Number of positive: 55723, number of negative: 71682
-[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.006576 seconds.
+[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.003116 seconds.
 You can set `force_row_wise=true` to remove the overhead.
 And if memory is not enough, you can set `force_col_wise=true`.
 [LightGBM] [Info] Total Bins 2398
@@ -137,7 +116,7 @@ And if memory is not enough, you can set `force_col_wise=true`.
 Fold=3, Model=lightgbm, Accuracy=0.7774010235157451
 Running: python train.py --fold 4 --model lightgbm
 [LightGBM] [Info] Number of positive: 55723, number of negative: 71682
-[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.005440 seconds.
+[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.003739 seconds.
 You can set `force_row_wise=true` to remove the overhead.
 And if memory is not enough, you can set `force_col_wise=true`.
 [LightGBM] [Info] Total Bins 2403
@@ -156,53 +135,13 @@ Fold=3, Model=catboost, Accuracy=0.7795673605224326
 Running: python train.py --fold 4 --model catboost
 Fold=4, Model=catboost, Accuracy=0.786600106747041
 Running: python train.py --fold 0 --model logistic_regression
-/home/whoami/Downloads/yes/envs/myenv/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:460: ConvergenceWarning: lbfgs failed to converge (status=1):
-STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-Please also refer to the documentation for alternative solver options:
-    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-  n_iter_i = _check_optimize_result(
 Fold=0, Model=logistic_regression, Accuracy=0.7228431495667462
 Running: python train.py --fold 1 --model logistic_regression
-/home/whoami/Downloads/yes/envs/myenv/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:460: ConvergenceWarning: lbfgs failed to converge (status=1):
-STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-Please also refer to the documentation for alternative solver options:
-    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-  n_iter_i = _check_optimize_result(
-Fold=1, Model=logistic_regression, Accuracy=0.7214844117924084
+Fold=1, Model=logistic_regression, Accuracy=0.721861166054441
 Running: python train.py --fold 2 --model logistic_regression
-/home/whoami/Downloads/yes/envs/myenv/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:460: ConvergenceWarning: lbfgs failed to converge (status=1):
-STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-Please also refer to the documentation for alternative solver options:
-    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-  n_iter_i = _check_optimize_result(
-Fold=2, Model=logistic_regression, Accuracy=0.7225518822015007
+Fold=2, Model=logistic_regression, Accuracy=0.7224576936359925
 Running: python train.py --fold 3 --model logistic_regression
-/home/whoami/Downloads/yes/envs/myenv/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:460: ConvergenceWarning: lbfgs failed to converge (status=1):
-STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-Please also refer to the documentation for alternative solver options:
-    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-  n_iter_i = _check_optimize_result(
-Fold=3, Model=logistic_regression, Accuracy=0.7144516655678
+Fold=3, Model=logistic_regression, Accuracy=0.7165866063859847
 Running: python train.py --fold 4 --model logistic_regression
-/home/whoami/Downloads/yes/envs/myenv/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:460: ConvergenceWarning: lbfgs failed to converge (status=1):
-STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-Please also refer to the documentation for alternative solver options:
-    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-  n_iter_i = _check_optimize_result(
-Fold=4, Model=logistic_regression, Accuracy=0.7253775391667452
+Fold=4, Model=logistic_regression, Accuracy=0.7257856896172805
 Running: python train.py --fold 0 --model svm
